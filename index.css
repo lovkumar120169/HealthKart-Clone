@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#logo {
+    width: 13%;
+    position: relative;
+    left: 50px;
+}
+
+#cart-png {
+    width: 3%;
+
+}
+
+.nav>input {
+    /* font-size: 15px;
+    width: 40%;
+    background-color: rgb(240, 239, 239);
+    border: none;
+    border-radius: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 50px;
+     position: relative;
+    left: 50px; */
+
+    border: none;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #77777e;
+    letter-spacing: .45px;
+    margin: 0;
+    padding: 10px 45px;
+    height: 48px;
+    width: 610px;
+    caret-color: #33c4c5;
+}
+
+#search-logo {
+    position: absolute;
+    left: 380px;
+    /* position: absolute;
+    left: 14.24px;
+    top: 14.5px;
+    height: 18.41px; */
+    width: 24.24px;
+}
+
+#login-btn {
+    padding: 12px 30px;
+    background-color: #00b5b7;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* position: relative;
+    right: 50px; */
+}
+
+#cart-count {
+    display: flex;
+    /* background-color: rgb(73, 221, 73); */
+    background-color: #fff;
+
+    width: 1.2%;
+    height: 18px;
+    /* text-align: ; */
+    color:  #058753;
+    border-radius: 100px;
+    position: relative;
+    right: 142px;
+    bottom: 13px;
+    font-size: 7px;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+#count {
+    position: absolute;
+    left: 4.5px;
+    top: -3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+.nav-2 {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#sort {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dbdee9;
+    border-radius: 4px;
+    padding-left: 45px;
+    padding-right: 30px;
+    height: 40px;
+
+}
+
+#sort>p {
+    font-weight: 600;
+    color: #77777e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Cato-logo {
+    width: 1%;
+    position: relative;
+    right: 270px;
+}
+.nav-2-items{
+  
+    color: #77777e;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.items-nav{
+    display: flex;
+    width: 80%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.third-row{
+   display: flex;
+   align-items: center;
+   background-color: #effbfc;
+   justify-content: center;
+   font-family: 'Cairo', sans-serif;
+   font-weight: 500;
+   font-size: 17px;
+   color: #77777e;
+}
+.slide-1{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding-bottom: 15px;
+    background-color: #f7f7f7;
+}
+.slide-1>img{
+    width: 98.5%;
+}
+
+.slide-1-btn>button{
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 100px;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.511);
+}
+.slide-1-btn{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: absolute;
+    bottom: 310px;
+    left: 35px;
+
+}
+
+.slick-dots{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    padding-left: 20px;
+   
+}
+.Dots-1{
+    font-size: 50px;
+}
