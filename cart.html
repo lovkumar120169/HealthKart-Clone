@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelthO Mart | Cart</title>
+    <link rel="icon" href="./images/My project.png">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <body>
+        <div class="nav">
+            <img src="./images/HealthO Mart.png" alt="" id="logo">
+    
+             <div id="nav-images">
+                <div>
+                    <img src="https://static1.hkrtcdn.com/hknext/static/media/checkout/blue-cart.svg" alt="">
+                    <p>Cart</p>
+                </div>
+
+
+                <div>
+                    <img src="https://static1.hkrtcdn.com/hknext/static/media/checkout/grey-address.svg" alt="">
+                    <p>Address</p>
+                </div>
+
+                <div>
+                    <img src="https://static1.hkrtcdn.com/hknext/static/media/checkout/grey-payment.svg" alt="">
+                    <p>Payment</p>
+                </div>
+            </div>
+    
+        </div>
+
+
+
+        <div class="conatiner">
+            <div id="cards-cart">
+                <div>
+                    <h2>Shopping Cart (<span id="item-count">0</span> item)</h2>
+                </div>
+                <div id="inside-container">
+
+                </div>
+            </div>
+            <div id="price-cart">
+                <div class="apply-coupan">
+                    <img src="https://static1.hkrtcdn.com/hknext/static/media/cart/discount-new.svg" alt="" id="coupan-img">
+                    <h3>Apply Coupon <span id="back-slash">></span></h3>
+
+                </div>
+                <div class="order-summary">
+                    <h3>Order Summary (1 item)</h3>
+                    <div class="price">
+                        <p>Total MRP</p>
+                        <p id="tot-price"></p>
+                    </div>
+                    <div>
+                        <p>Total Discount</p>
+                        <p id="tot-dis"></p>
+                    </div>
+                    <div>
+                        <p>Shipping Charges</p>
+                        <p id="free-del"></p>
+                    </div>
+                    <div id="total-price-ele">
+                        <h4>Payable Amount</h4>
+                        <h4 id="pay-amount"></h4>
+                    </div>
+                </div>
+                <div>
+                    <button id="Payment-button">Proceed To Payment</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    
+</body>
+<script src="cart.js"></script>
+</html>
