@@ -1,0 +1,330 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: white;
+    
+}
+
+#logo {
+    width: 13%;
+    position: relative;
+    
+    top: 1px;
+}
+
+
+#nav-images{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 500px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.f-line{
+    border: 2px solid red;
+    width: 105px;
+    height: 1px;
+    position: absolute;
+    left: 568px;
+    top: 38px;
+    border: 1px solid #00b5b7;
+    background-color: #00b5b7;
+}
+.s-line{
+    width: 120.5px;
+    height: 1px;
+    position: absolute;
+    left: 713.5px;
+    top: 38px;
+    border: 1px solid rgba(203, 201, 201, 0.776);
+    border: 1px solid #00b5b7;
+    background-color: #00b5b7;
+}
+#nav-images>div>p{
+    margin-right: 10px;
+   
+}
+#nav-images>div p{
+    position: relative;
+    bottom: 10px;
+    
+} 
+ #nav-images>div:nth-child(1)>p{
+    right: 9px;
+}
+#nav-images>div:nth-child(2)>p{
+    left: -10px;
+}
+#nav-images>div:nth-child(3)>p{
+    right: 11px;
+}
+#nav-images>div:nth-child(){
+    margin-left: 30px;
+}
+ #nav-images img{
+    margin-left: 0px;
+    margin-top: 36px;
+}
+
+#nav-images>div:first-child>p{
+    margin-left: 13px;
+   
+}
+#nav-images p{
+ position: relative;
+ bottom: 10px;
+}
+
+#cards-cart{
+    background-color: white;
+    /* width: 80%; */
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    /* margin-left: 80px; */
+    color: rgba(0, 0, 0, 0.527);
+}
+.div-flex-form{
+   gap: 20px;
+}
+
+#landmark-inp{
+    width: 80%;
+}
+#ccv-inp{
+    width: 80%;
+}
+
+
+
+#form-input{
+    width: 55%;
+}
+
+#dcp{
+    color: black;
+}
+
+
+
+
+
+
+.dilevryAdd{
+    height: 110px;
+    width: 130%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+
+
+.dilevryAdd>h4{
+    margin-left: 20px;
+    padding-top: 20px;
+    color: #00b5b7;
+}
+.dilevryAdd>p{
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.632);
+}
+
+.payment-items{
+    background-color: #fff;
+    width: 130%;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+}
+#DC{
+    margin-top: -30px;
+}
+#codradio{
+   position: relative;
+   left: 165px;
+   bottom: 38px;
+}
+.payment-items>h4{
+    padding-top: 35px;
+    margin-left: 20px;
+}
+
+.conatiner{
+    display: flex;
+}
+
+
+
+
+#cod-btn{
+    position: relative;
+    left: 550px;
+    bottom: 50px;
+    height: 45px;
+    width: 200px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00b5b7;
+    color: #fff;
+    cursor: pointer;
+}
+
+#hrdiv{
+    margin-top: -30px;
+    
+}
+
+
+.conatiner{
+    width: 90%;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+}
+#cards-cart{
+    width: 80%;
+}
+
+#cards-cart input{
+   font-size: 15px;
+   border-radius: 5px;
+   padding: 15px;
+   border:1px solid #00b5b7;
+  
+}
+
+#cards-cart input::placeholder{
+    color: #00b4b77e;
+}
+.div-flex-form{
+    margin-bottom: 10px;
+}
+.div-flex-form-1{
+    margin-bottom: 10px;
+}
+.div-flex-form-2{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #00b5b7;
+    color: white;
+    cursor: pointer;
+}
+
+.Space-div{
+    margin-top: 30px;
+    
+}
+
+.inptut-name{
+    font-size: 15px;
+    
+}
+.Address-bar{
+    width: 90%;
+}
+#ccve-part{
+    display: flex;
+    justify-content: flex-start;
+}
+#ccve-part>div:last-child{
+    /* margin-left: -55px; */
+}
+
+
+
+#price-cart{
+    /* width: 40%; */
+    border-radius: 10px;
+    
+}
+.order-summary{
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    /* margin-top: 30px; */
+    border-radius: 10px; 
+    /* align-items: center;
+     margin-left: 30px;  */
+     height: 300px;
+}
+
+#total-price-ele{
+    margin-left: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.441);
+}
+.order-summary>div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#free-del{
+   color: green;
+}
+#savings-css{
+    color: green;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#name-inp{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-flex-form{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+
+
+.footer{
+    margin-top: 50px;
+    background-color: #fff;
+    padding-top: 1px;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+  
+}
+.footer>div{
+    
+    margin-left: 100px;
+}
+.footer>div p{
+    margin-left: 1px;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.footer>div:last-child{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+

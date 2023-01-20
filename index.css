@@ -321,15 +321,17 @@ body {
     padding-top: 10px;
     background-color: #f7f7f7;
    width: 100%;
+   height: 200px;
    border-radius: 10px 10px 0px 0px;
   
 }
 
 .container-product-1>div>div:first-child>img{
-    width: 70%;
+    width: 60%;
     mix-blend-mode: darken;
     display: block;
     margin: auto;
+    padding-top: 20px;
     
 }
 
@@ -354,6 +356,7 @@ body {
     width: 80%;
     justify-content: center;
     margin: auto;
+    margin-top: -20px;
   
 
 }
@@ -402,6 +405,23 @@ body {
     margin-top: 30px;
     border-radius: 4px;
    
+}
+
+.rating-value{
+    position: relative;
+    left: 80px;
+    bottom: 35px;
+    font-size: 10px;
+    font-weight: lighter;
+    
+}
+.brand-name{
+    color: #00b5b7;
+    font-weight: 500;
+    font-size: 12px;
+}
+.pro-name{
+    margin-top: -20px;
 }
 .star-png{
     width: 80%;

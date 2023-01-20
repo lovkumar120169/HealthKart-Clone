@@ -53,7 +53,8 @@ let product_1 = [
     Discount: "40%",
     img: "https://img3.hkrtcdn.com/22586/prd_2258522_o.jpg",
     id: 1,
-    quantity:1
+    quantity:1,
+    review:"0 Reviews"
   },
   {
     name: "MuscleBlaze Super Gainer XXL Powder, 5 kg (11 lb), Chocolate",
@@ -64,7 +65,8 @@ let product_1 = [
     Discount: "44%",
     img: "https://img4.hkrtcdn.com/12151/prd_1215013-MuscleBlaze-Super-Gainer-XXL-OP-11-lb-Chocolate_o.jpg",
     id: 2,
-    quantity:1
+    quantity:1,
+    review:"1.8k Reviews"
   },
   {
     name: "MuscleBlaze Beginner's Protein Powders, 1 kg (2.2 lb), Cookies..",
@@ -75,7 +77,8 @@ let product_1 = [
     Discount: "41%",
     img: "https://img6.hkrtcdn.com/12151/prd_1215005-MuscleBlaze-Beginners-Protein-OP-2.2-lb-Cookies-and-Cream_o.jpg",
     id: 3,
-    quantity:1
+    quantity:1,
+    review:"1.2k Reviews"
   },
   {
     name: "MB Fuel One Whey Protein Powder Immunity+, 1 kg (2.2 lb), Chocolate",
@@ -86,7 +89,8 @@ let product_1 = [
     Discount: "34%",
     img: "https://img2.hkrtcdn.com/13039/prd_1303871-MB-Fuel-One-Whey-Protein-Immunity-OP-2.2-lb-Chocolate_o.jpg",
     id: 4,
-    quantity:1
+    quantity:1,
+    review:"14k Reviews"
   },
   {
     name: "HealthKart Biotin (10000 mcg) tablets, 90 tablet(s)",
@@ -97,7 +101,8 @@ let product_1 = [
     Discount: "55%",
     img: "https://img2.hkrtcdn.com/14613/prd_1461211-HealthKart-Biotin-10000-mcg-OP-90-tablets-Unflavoured_o.jpg",
     id: 5,
-    quantity:1
+    quantity:1,
+    review:"0 Reviews"
   },
   {
     name: "MuscleBlaze Beginner's Protein Powders, 1 kg (2.2 lb).....",
@@ -108,7 +113,8 @@ let product_1 = [
     Discount: "41%",
     img: "https://img2.hkrtcdn.com/15126/prd_1512571-MuscleBlaze-Beginners-Protein-OP-2.2-lb-Magical-Mango_o.jpg",
     id: 6,
-    quantity:1
+    quantity:1,
+    review:"18k Reviews"
   },
   {
     name: "MuscleBlaze Raw Whey Isolate Powder, 1 kg (2.2 lb)",
@@ -119,7 +125,8 @@ let product_1 = [
     Discount: "40%",
     img: "https://img8.hkrtcdn.com/12485/prd_1248437_o.jpg",
     id: 7,
-    quantity:1
+    quantity:1,
+    review:"1.8k Reviews"
   },
   {
     name: "MuscleBlaze Biozyme Performance Whey Protein, 2 kg (4.4 lb)...",
@@ -130,7 +137,8 @@ let product_1 = [
     Discount: "22%",
     img: "https://img10.hkrtcdn.com/15127/prd_1512659-MuscleBlaze-Biozyme-Performance-Whey-OP-4.4-lb-Rich-Chocolate_o.jpg",
     id: 8,
-    quantity:1
+    quantity:1,
+    review:"18 Reviews"
   },
   {
     name: "MuscleBlaze Whey Performance (70%) Protein OP, 4 kg (8.8 lb)..",
@@ -141,7 +149,8 @@ let product_1 = [
     Discount: "2%",
     img: "https://img6.hkrtcdn.com/12151/prd_1215035-MuscleBlaze-Whey-Performance-70-Protein-OP-8.8-lb-Chocolate_o.jpg",
     id: 9,
-    quantity:1
+    quantity:1,
+    review:"2.8k Reviews"
   },
   {
     name: "MuscleBlaze Super Gainer XXL Powder, 3 kg (6.6 lb), Cookies &..",
@@ -152,7 +161,8 @@ let product_1 = [
     Discount: "34%",
     img: "https://img4.hkrtcdn.com/8698/prd_869763-MuscleBlaze-Super-Gainer-XXL-OP-6.6-lb-Cookies-Cream_o.jpg",
     id: 10,
-    quantity:1
+    quantity:1,
+    review:"2.5k Reviews"
   },
   {
     name: "MuscleBlaze Super Gainer XXL Powder, 3 kg (6.6 lb), Chocolate",
@@ -163,7 +173,8 @@ let product_1 = [
     Discount: "43%",
     img: "https://img2.hkrtcdn.com/12139/prd_1213811-MuscleBlaze-Super-Gainer-XXL-OP-6.6-lb-Chocolate_o.jpg",
     id: 11,
-    quantity:1
+    quantity:1,
+    review:"1.7k Reviews"
   },
   {
     name: "MuscleBlaze Super Gainer XXL Powder, 1 kg (2.2 lb), Cookies..",
@@ -174,7 +185,8 @@ let product_1 = [
     Discount: "41%",
     img: "https://img4.hkrtcdn.com/12151/prd_1215023-MuscleBlaze-Super-Gainer-XXL-OP-2.2-lb-Cookies-Cream_o.jpg",
     id: 12,
-    quantity:1
+    quantity:1,
+    review:"1.9k Reviews"
   },
   {
     name: "MuscleBlaze High Protein Lean Mass Gainer Powder, 5 kg (11 lb)",
@@ -185,7 +197,8 @@ let product_1 = [
     Discount: "20%",
     img: "https://img6.hkrtcdn.com/12326/prd_1232515-MuscleBlaze-High-Protein-Lean-Mass-Gainer-OP-11-lb-Chocolate_o.jpg",
     id: 13,
-    quantity:1
+    quantity:1,
+    review:"0 Reviews"
   },
   {
     name: "MuscleBlaze Super Gainer XXL, 3 kg (6.6 lb), Chocolate Mint",
@@ -196,7 +209,8 @@ let product_1 = [
     Discount: "43%",
     img: "https://img8.hkrtcdn.com/13355/prd_1335497-MuscleBlaze-Super-Gainer-XXL-6.6-lb-Chocolate-Mint_o.jpg",
     id: 14,
-    quantity:1
+    quantity:1,
+    review:"2k Reviews"
   },
   {
     name: "MB Fuel One Whey Protein Powder Immunity+, 2 kg (4.4 lb), Chocolate",
@@ -207,7 +221,8 @@ let product_1 = [
     Discount: "20%",
     img: "https://img2.hkrtcdn.com/15126/prd_1512521-MB-Fuel-One-Whey-Protein-Immunity-OP-4.4-lb-Chocolate_o.jpg",
     id: 15,
-    quantity:1
+    quantity:1,
+    review:"506 Reviews"
   },
   {
     name: "MB Fuel One Whey Protein Powder Immunity+, 1 kg (2.2 lb), Mango",
@@ -218,7 +233,8 @@ let product_1 = [
     Discount: "34%",
     img: "https://img4.hkrtcdn.com/15126/prd_1512523-MB-Fuel-One-Whey-Protein-Immunity-OP-2.2-lb-Mango_o.jpg",
     id: 16,
-    quantity:1
+    quantity:1,
+    review:"5.8k Reviews"
   }
   //  {
   //   name:"MB Fuel One Whey Protein Powder Immunity+, 500 g (1.1 lb), Chocolate",
@@ -265,6 +281,12 @@ function Display_1(data) {
 
     let Riview_div = document.createElement("div")
     let review = document.createElement("p");
+    let ratingValue=document.createElement("h4")
+    ratingValue.innerText=element.review;
+    ratingValue.setAttribute("class","rating-value")
+    let brandName=document.createElement("p")
+    brandName.setAttribute("class","brand-name")
+    brandName.innerText=element.brand
     let starimg = document.createElement("img")
     starimg.setAttribute("src", "./images/star png1.png")
     starimg.setAttribute("class", "star-png")
@@ -277,12 +299,15 @@ function Display_1(data) {
     discount.innerText = `${element.Discount} Off`;
     discount.setAttribute("class", "discount-price")
     let Add_to_cart = document.createElement("button")
-
+    let whiteStar = document.createElement("img");
+    whiteStar.setAttribute("src", "./images/star png.png")
+    whiteStar.setAttribute("class", "star-png")
 
     mrp.setAttribute("class", "mrp-cross")
     image.setAttribute("src", element.img)
     review.innerText = element.rating;
     product_name.innerText = element.name;
+    product_name.setAttribute("class","pro-name")
     mrp.innerText = `₹${element.mrp}`;
     price.innerText = `₹${element.Price}`;
     Add_to_cart.innerText = "Add To Cart"
@@ -318,10 +343,10 @@ function Display_1(data) {
       Riview_div.append(review, starimg)
     }
     else {
-      Riview_div.append(review)
+      Riview_div.append(review,whiteStar)
     }
     img_div.append(image)
-    card_product.append(img_div, Riview_div, product_name, mrp, price, discount, Add_to_cart)
+    card_product.append(img_div, Riview_div,ratingValue, product_name,brandName, mrp, price, discount, Add_to_cart)
     container_product_1.append(card_product)
 
   });
@@ -375,9 +400,12 @@ let product_2 = [
     rating: 4.6,
     mrp: 950,
     Price: 574,
-    Discount: "39% Off",
+    Discount: "39%",
     img: "https://img9.hkrtcdn.com/22178/prd_2217718-HealthKart-HK-Vitals-Multivitamin-with-MultimineralTaurine-Ginseng-Extract-90-tablets-Unflavoured_o.jpg",
-    id: 1
+    id: 1,
+    quantity:1,
+    review:"1k Reviews"
+
   },
   {
     name: "HealthKart HK Vitals Fish Oil 1000mg with 180mg EPA..",
@@ -385,9 +413,11 @@ let product_2 = [
     rating: 4.6,
     mrp: 699,
     Price: 379,
-    Discount: "45% Off",
+    Discount: "45%",
     img: "https://img5.hkrtcdn.com/22258/prd_2225764-HealthKart-HK-Vitals-Fish-Oil-1000mg-with-180mg-EPA-and-120mg-DHA-60-capsules_o.jpg",
-    id: 2
+    id: 2,
+    quantity:1,
+    review:"1.8k Reviews"
   },
   {
     name: "HealthKart HK Vitals Biotin (10000 mcg), 90 tablet(s)",
@@ -395,9 +425,11 @@ let product_2 = [
     rating: 4.4,
     mrp: 659,
     Price: 499,
-    Discount: "24% Off",
+    Discount: "24%",
     img: "https://img5.hkrtcdn.com/20643/prd_2064214-HealthKart-HK-Vitals-Biotin-10000-mcg-90-tablets-Unflavoured_o.jpg",
-    id: 3
+    id: 3,
+    quantity:1,
+    review:"5k Reviews"
   },
   {
     name: "HealthKart HK Vitals Skin Radiance Collagen, 200 g, Orange",
@@ -405,9 +437,11 @@ let product_2 = [
     rating: 4.3,
     mrp: 1099,
     Price: 849,
-    Discount: "22% Off",
+    Discount: "22%",
     img: "https://img3.hkrtcdn.com/16796/prd_1679532-HealthKart-HK-Vitals-Skin-Radiance-Collagen-200-g-Orange_o.jpg",
-    id: 4
+    id: 4,
+    quantity:1,
+    review:"8k Reviews"
   }
 
 ];
@@ -417,10 +451,60 @@ let container_product_2 = document.querySelector(".container-product-2");
 
 
 Display_2(product_2)
+// function Display_2(data) {
+
+//   data.forEach((element) => {
+//     console.log("luv")
+//     let card_product = document.createElement("div");
+//     let img_div = document.createElement("div")
+//     let image = document.createElement("img");
+
+
+//     let Riview_div = document.createElement("div")
+//     let review = document.createElement("p");
+//     let starimg = document.createElement("img")
+//     starimg.setAttribute("src", "./images/star png1.png")
+//     starimg.setAttribute("class", "star-png")
+
+//     Riview_div.setAttribute("class", "riview-div")
+//     let product_name = document.createElement("p");
+//     let mrp = document.createElement("p");
+//     let price = document.createElement("h3");
+//     let discount = document.createElement("p");
+//     discount.innerText = element.Discount;
+//     discount.setAttribute("class", "discount-price")
+//     let Add_to_cart = document.createElement("button")
+
+
+//     mrp.setAttribute("class", "mrp-cross")
+//     image.setAttribute("src", element.img)
+//     review.innerText = element.rating;
+//     product_name.innerText = element.name;
+//     mrp.innerText = `₹${element.mrp}`;
+//     price.innerText = `₹${element.Price}`;
+//     Add_to_cart.innerText = "Add To Cart"
+
+
+//     if (element.rating > 0) {
+//       Riview_div.append(review, starimg)
+//     }
+//     else {
+//       Riview_div.append(review)
+//     }
+//     img_div.append(image)
+//     card_product.append(img_div, Riview_div, product_name, mrp, price, discount, Add_to_cart)
+//     container_product_2.append(card_product)
+
+//   });
+
+
+// }
+
+
+
 function Display_2(data) {
 
   data.forEach((element) => {
-    console.log("luv")
     let card_product = document.createElement("div");
     let img_div = document.createElement("div")
     let image = document.createElement("img");
@@ -428,37 +512,72 @@ function Display_2(data) {
 
     let Riview_div = document.createElement("div")
     let review = document.createElement("p");
+    let ratingValue=document.createElement("h4")
+    ratingValue.innerText=element.review;
+    ratingValue.setAttribute("class","rating-value")
     let starimg = document.createElement("img")
     starimg.setAttribute("src", "./images/star png1.png")
     starimg.setAttribute("class", "star-png")
+    let brandName=document.createElement("p")
+    brandName.innerText=element.brand
+    brandName.setAttribute("class","brand-name")
 
     Riview_div.setAttribute("class", "riview-div")
     let product_name = document.createElement("p");
     let mrp = document.createElement("p");
     let price = document.createElement("h3");
     let discount = document.createElement("p");
-    discount.innerText = element.Discount;
+    discount.innerText = `${element.Discount} Off`;
     discount.setAttribute("class", "discount-price")
     let Add_to_cart = document.createElement("button")
-
+    let whiteStar = document.createElement("img");
+    whiteStar.setAttribute("src", "./images/star png.png")
+    whiteStar.setAttribute("class", "star-png")
 
     mrp.setAttribute("class", "mrp-cross")
     image.setAttribute("src", element.img)
     review.innerText = element.rating;
     product_name.innerText = element.name;
+    product_name.setAttribute("class","pro-name")
     mrp.innerText = `₹${element.mrp}`;
     price.innerText = `₹${element.Price}`;
     Add_to_cart.innerText = "Add To Cart"
+    Add_to_cart.setAttribute("class", "first-click")
+    Add_to_cart.addEventListener("click", function () {
+      let x=false
+      for (let i = 0; i < cartData.length; i++) {
+        
+        if (element.id == cartData[i].id) {
+              x = true;
+        }
+      }
+
+      if (x == true) {
+        Add_to_cart.setAttribute("onclick", location.href = `cart.html`);
+      }
+      else {
+        countNum = Number(cartData.length);
+        countNum++
+        countEl.innerText = countNum;
+
+        cartData.push(element)
+
+        localStorage.setItem("cart", JSON.stringify(cartData))
+
+        Add_to_cart.innerText = "Product Added"
+
+      }
+    })
 
 
     if (element.rating > 0) {
       Riview_div.append(review, starimg)
     }
     else {
-      Riview_div.append(review)
+      Riview_div.append(review,whiteStar)
     }
     img_div.append(image)
-    card_product.append(img_div, Riview_div, product_name, mrp, price, discount, Add_to_cart)
+    card_product.append(img_div, Riview_div,ratingValue, product_name,brandName, mrp, price, discount, Add_to_cart)
     container_product_2.append(card_product)
 
   });
