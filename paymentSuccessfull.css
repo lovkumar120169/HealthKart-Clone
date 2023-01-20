@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: white;
+    
+}
+
+#logo {
+    width: 13%;
+    position: relative;
+    
+    top: 1px;
+}
+
+
+#nav-images{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 500px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.f-line{
+    border: 2px solid red;
+    width: 117px;
+    height: 1px;
+    position: absolute;
+    left: 568px;
+    top: 38px;
+    border: 1px solid #00b5b7;
+    background-color: #00b5b7;
+}
+.s-line{
+    width: 135px;
+    height: 1px;
+    position: absolute;
+    left: 713.5px;
+    top: 38px;
+    border: 1px solid rgba(203, 201, 201, 0.776);
+    border: 1px solid #00b5b7;
+    background-color: #00b5b7;
+}
+#nav-images>div>p{
+    margin-right: 10px;
+   
+}
+#nav-images>div p{
+    position: relative;
+    bottom: 10px;
+    
+} 
+ #nav-images>div:nth-child(1)>p{
+    right: 9px;
+}
+#nav-images>div:nth-child(2)>p{
+    left: -10px;
+}
+#nav-images>div:nth-child(3)>p{
+    right: 11px;
+}
+#nav-images>div:nth-child(){
+    margin-left: 30px;
+}
+ #nav-images img{
+    margin-left: 0px;
+    margin-top: 36px;
+}
+
+#nav-images>div:first-child>p{
+    margin-left: 13px;
+   
+}
+#nav-images p{
+ position: relative;
+ bottom: 10px;
+}
+
+
+
+.order-summary{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.518);
+    /* margin-top: 30px; */ 
+    /* align-items: center;
+     margin-left: 30px;  */
+     height: 310px;
+}
+
+#total-price-ele{
+    margin-left: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.441);
+}
+.order-summary>div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#free-del{
+   color: green;
+}
+#savings-css{
+    color: green;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+
+#os{
+    text-align: center;
+    color: green;
+}
+
+#home-btn{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00b5b7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.footer{
+    margin-top: 7%;
+    background-color: #fff;
+    padding-top: 1px;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+  
+}
+.footer>div{
+    
+    margin-left: 100px;
+}
+.footer>div p{
+    margin-left: 1px;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.footer>div:last-child{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
