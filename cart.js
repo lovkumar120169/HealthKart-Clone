@@ -59,7 +59,9 @@ function Display_1(data) {
     decPro.innerText = "-"
     Add_to_cart.innerText = "Remove"
     Add_to_cart.addEventListener("click", function () {
+
       countlength--
+      
       let filtered = data.filter((ele, ind) => {
         
         // element.quantity=1;
@@ -74,6 +76,9 @@ function Display_1(data) {
       Display_1(filtered)
       location.reload()
       localStorage.setItem("cart", JSON.stringify(filtered))
+      if(filtered.length==0){
+        location.href=`index.html`
+      }
       
       itemCount.innerText = countlength
       // order_summery_count.innerText= cartData.length

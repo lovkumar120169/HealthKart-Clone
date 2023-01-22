@@ -771,48 +771,50 @@ function Display_1(data) {
 
 
 
-location.reload(0)
 
 
 
-let inputData=document.getElementById("search")
 
-let Srcdata=JSON.parse(localStorage.getItem("search-field"))||""
-if(Srcdata==""){
-    Search()
-}
-else{
-  Search(Srcdata)
-}
-function Search(data){
-    let submit_btn=document.getElementById("submit-form");
 
-submit_btn.addEventListener("submit",(e)=>{
-    e.preventDefault()
+
+
+// let Srcdata=JSON.parse(localStorage.getItem("search-field"))||"";
+// if(Srcdata!=""){
+//    inputData.value=Srcdata;
+// }
+
+  let inputData=document.getElementById("search")
+
+
+
+
+    let formInp=document.getElementById("submit-form");
+
+    formInp.addEventListener("submit",(event)=>{
+        event.preventDefault();
     
     let filtered=Product_Data.filter((ele)=>{
-       if(data==""){
-        if(ele.name.toUpperCase().includes(inputData.value.toUpperCase())==true || ele.brand.toUpperCase().includes(inputData.value.toUpperCase())){
+       
+        if(ele.name.toUpperCase().includes(inputData.value.toUpperCase())==true || ele.brand.toUpperCase().includes(inputData.value.toUpperCase())==true){
             return true;
         }
         else{
             return false;
         }
-       }
-       else{
-        if(ele.name.toUpperCase().includes(data.toUpperCase())==true || ele.brand.toUpperCase().includes(data.toUpperCase())){
-            return true;
-        }
-        else{
-            return false;
-        }
-       }
+       
+      //  else{
+      //   if(ele.name.toUpperCase().includes(data.toUpperCase())==true || ele.brand.toUpperCase().includes(data.toUpperCase())){
+      //       return true;
+      //   }
+      //   else{
+      //       return false;
+      //   }
+      //  }
 
     })
  
     Display_1(filtered)
 })
-}
 
 
 
