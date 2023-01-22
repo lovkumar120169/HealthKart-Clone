@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.539);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#conatiner{
+    background-color:  #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+#container-card{
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#conatiner-img>img{
+    display: flex;
+    margin-top: 110px;
+    mix-blend-mode: darken;
+}
+
+
+
+.items1{
+    width: 60%;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    border:1px solid #00b5b7;
+    margin-top: 20px;
+
+}
+
+.form-name{
+  color: rgba(0, 0, 0, 0.568);
+}
+
+.items-btn{
+    width: 30%;
+    background-color: #00b5b7;
+    color: white;
+    cursor: pointer;
+    margin-top: -15px;
+    font-size: 20px;
+    border:1px solid #00b5b7;
+    color:white;
+    /* background-color:  #00b5b7!important; */
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+
+/* #container>div:nth-child(2){
+    border-radius: 55px 0px 55px 0px;
+
+}
+#container>div:nth-child(2) .card-img{
+    width: 100px;
+}
+#container>div:nth-child(2) .card-g{
+  margin-left: 70px;
+}
+#container>div:nth-child(2) .card-f{
+    margin-left: 80px;
+    padding-bottom: 10px;
+}
+#container>div:nth-child(2) .button-card-s{
+    border-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#container>div:nth-child(2) .items2{
+    margin-top: 100px;
+} */

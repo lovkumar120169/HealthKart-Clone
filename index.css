@@ -79,6 +79,7 @@ body {
 }
 
 #login-btn {
+    width: 110px;
     padding: 12px 30px;
     background-color: #00b5b7;
     color: #fff;
@@ -89,6 +90,7 @@ body {
     cursor: pointer;
     /* position: relative;
     right: 50px; */
+    
 }
 
 #cart-count {
@@ -101,10 +103,11 @@ body {
     color:  #058753;
     /* border-radius: 100px; */
     position: relative;
-    right: 117px;
+    right: 116px;
     bottom: 13px;
     font-size: 7px;
     font-family: 'Cairo', sans-serif;
+
 
 }
 
@@ -464,7 +467,18 @@ body {
 }
 
 
+ #logout-btn{
+    color: rgba(0, 0, 0, 0.553);
+    border: none;
+    background-color: #fff;
+    /* border-radius: 100px;
+    height: 50px; */
+    cursor: pointer;
 
+ } 
+#btns-div{
+    
+} */ 
 
 
 
@@ -475,9 +489,10 @@ body {
 
 
 .container-product-2{
+    width: 80%;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(4,20%);
+    grid-template-columns: repeat(4,5%);
     justify-content: center;
     gap: 20px;
     padding-bottom: 15px;
