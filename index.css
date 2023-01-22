@@ -30,7 +30,12 @@ body {
 
 }
 
-.nav>input {
+
+#form-input>#sub-btn{
+    display: none;
+}
+
+.nav #search{
     /* font-size: 15px;
     width: 40%;
     background-color: rgb(240, 239, 239);
@@ -308,7 +313,7 @@ body {
 
 
 .container-product-1{
-    margin-top: -120px;
+    margin-top: -160px;
     display: grid;
     grid-template-columns: repeat(4,20%);
     justify-content: center;
@@ -448,6 +453,17 @@ body {
 }
 
 
+#product-1-view-All{
+    text-align: right;
+    position: relative;
+    left: -50px;
+    bottom: 70px;
+    color: #00b5b7;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+}
+
+
 
 
 
@@ -575,7 +591,7 @@ body {
     text-align: end;
     margin-right: 30px;
     position: relative;
-  bottom: 600px;
+  bottom: 650px;
   font-family: Montserrat, sans-serif;
   color: #00b5b7;
   font-size: 15px;
@@ -585,10 +601,9 @@ body {
     text-align: center;
     margin-right: 30px;
     position: relative;
-  bottom: 650px;
-  font-family: Montserrat, sans-serif;
-  
-
+    bottom: 680px;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
 }
 
 

@@ -587,6 +587,35 @@ function Display_2(data) {
 
 
 
+let goToproduct=document.getElementById("product-1-view-All");
+goToproduct.addEventListener("click",function(){
+  location.href=`product.html`
+})
+
+
+let gotoPro=document.getElementById("view-link");
+
+gotoPro.addEventListener("click",()=>{
+  location.href=`product.html`
+})
+
+let Srcdata=JSON.parse(localStorage.getItem("search-field"))||""
+let input_data=document.getElementById("search");
+
+let formDataSubmit=document.getElementById("form-input");
+
+formDataSubmit.addEventListener("submit",(e)=>{
+  e.preventDefault();
+   if(input_data.value!=""){
+    location.href=`product.html`
+    
+    let srcvalue=input_data.value;
+    localStorage.setItem("search-field",JSON.stringify(srcvalue))
+   }
+})
+
+
+
 
 
 
